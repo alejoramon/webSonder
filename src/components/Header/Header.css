@@ -1,0 +1,40 @@
+/* src/components/Header.css */
+
+/* Estilos para el encabezado */
+.header {
+  background-color: #333; /* Color de fondo del encabezado */
+  color: #fff; /* Color del texto del encabezado */
+  padding: 10px; /* Espaciado interno del encabezado */
+  width: 100%; /* Hace que el encabezado ocupe todo el ancho de la página */
+}
+
+/* Estilos para el logotipo */
+.logo {
+  font-size: 24px; /* Tamaño de fuente del logotipo */
+  font-weight: bold; /* Peso de la fuente del logotipo */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  display: flex; /* Flexbox para alinear los elementos en la barra de navegación */
+  align-items: center; /* Alinear elementos verticalmente en la barra de navegación */
+}
+
+/* Estilos para los elementos de navegación */
+.nav-menu {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  display: flex; /* Flexbox para alinear los elementos de la lista */
+  margin-left: auto; /* Mover los elementos de la lista al extremo derecho */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espaciado entre elementos de la lista */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima de los elementos */
+}
+
+/* Estilos para la imagen del logotipo */
+.logo img {
+  width: 50px; /* Ancho de la imagen del logotipo */
+  height: auto; /* Altura automática para mantener la relación de aspecto */
+  margin-right: 10px; /* Espaciado entre el logotipo y otros elementos */
+}

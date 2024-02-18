@@ -1,0 +1,24 @@
+.our-offer-container {
+    padding: 20px;
+  }
+  
+  .section-container {
+    margin-bottom: 20px; /* Agrega espacio entre la sección del título y los componentes */
+  }
+  
+  .offer-highlights {
+    display: flex; /* Muestra los componentes en línea */
+    justify-content: space-between; /* Distribuye el espacio entre los componentes */
+  }
+  
+  .offer-item {
+    width: calc(35% - 250px); /* Ajusta el ancho de cada contenedor al 25% del ancho total menos el espacio entre ellos */
+    background-color: magenta; /* Color de fondo magenta */
+    margin: 0px; /* Margen entre los contenedores */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  

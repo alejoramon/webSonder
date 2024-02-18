@@ -1,17 +1,20 @@
-/* src/components/Header.css */
-
 /* Estilos para el encabezado */
 .header {
-  background-color: #333; /* Color de fondo del encabezado */
-  color: #fff; /* Color del texto del encabezado */
+  background-color: #f5eeee; /* Color de fondo del encabezado */
+  color: #000000; /* Color del texto del encabezado */
   padding: 10px; /* Espaciado interno del encabezado */
-  width: 100%; /* Hace que el encabezado ocupe todo el ancho de la página */
+  width: 100%; /* Hace que el encabezado ocupe todo el ancho de su contenedor */
+  position: fixed; /* Fija el encabezado en la parte superior de la ventana */
+  top: 0; /* Coloca el encabezado en la parte superior de la ventana */
+  z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
 }
 
 /* Estilos para el logotipo */
 .logo {
   font-size: 24px; /* Tamaño de fuente del logotipo */
   font-weight: bold; /* Peso de la fuente del logotipo */
+  display: flex; /* Utiliza flexbox para alinear el logotipo y la imagen */
+  align-items: center; /* Alinea verticalmente el contenido */
 }
 
 /* Estilos para la barra de navegación */
@@ -24,7 +27,7 @@
 .nav-menu {
   list-style-type: none; /* Eliminar viñetas de la lista */
   display: flex; /* Flexbox para alinear los elementos de la lista */
-  margin-left: auto; /* Mover los elementos de la lista al extremo derecho */
+  margin: 0 auto; /* Centra horizontalmente el menú de navegación */
 }
 
 .nav-item {
@@ -37,4 +40,10 @@
   width: 50px; /* Ancho de la imagen del logotipo */
   height: auto; /* Altura automática para mantener la relación de aspecto */
   margin-right: 10px; /* Espaciado entre el logotipo y otros elementos */
+}
+.social-icons {
+  margin-right: 50px; /* Ajusta este valor según sea necesario */
+}
+.social-icons a:first-child {
+  margin-right: 10px; /* Ajusta este valor según sea necesario */
 }

@@ -1,0 +1,30 @@
+/* src/components/Footer.css */
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #cdc7c7; /* Color del texto del footer */
+    padding: 20px; /* Espaciado interno del footer */
+    width: 100%; /* Hace que el footer ocupe todo el ancho de su contenedor */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    bottom: 0; /* Coloca el footer en la parte inferior de la ventana */
+  }
+  
+  /* Estilos para el contenido del footer */
+  .footer-content {
+    display: flex; /* Utiliza flexbox para alinear los elementos en el centro */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+  }
+  
+.footer-content {
+    /* Estilos para el contenido del footer */
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .contact-info {
+    /* Estilos para el texto "Formas de contacto" */
+    font-weight: bold; /* Hace el texto en negrita */
+    margin-bottom: 5px; /* Agrega un pequeño margen inferior para separarlo del resto del contenido */
+  }
+  
